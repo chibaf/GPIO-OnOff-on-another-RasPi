@@ -7,7 +7,7 @@ host = '192.168.0.11'  # server ip address
 port = 9988  #port number
 
 GPIO.setmode(GPIO.BOARD) # GPIO set up
-num=(11,12) #GPIO number
+num=(11,12) #GPIO pin number
 for i in range(0,len(num)):
   print(num[i])
   GPIO.setup(num[i],GPIO.OUT)
